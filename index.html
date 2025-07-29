@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotop</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- Required CSS for Magnific Popup -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <!-- formstyler -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.css">
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- animate -->
+    <link rel="stylesheet" href="/assets/libs/animatecss/animate.css">
+
+    <!-- flag -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+
+    <!-- css file embended start -->
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/custom.css">
+
+
+
+    <style>
+        .header-title .pp:after {
+            right: 19px;
+            bottom: -1px;
+            border-bottom-right-radius: 5px;
+        }
+
+        @media screen and (max-width: 480px) {
+            .header-title .pp:after {
+                right: 17px;
+                bottom: 2px;
+            }
+        }
+    </style>
+
+
+    <!-- css file embended end -->
+
+
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="content">
+            <header class="header">
+                <div class="header-top aos-init aos-animate" data-aos="fade-down" data-aos-delay="0">
+                    <div class="header-mob">
+                        <div class="nicescroll-box"
+                            style="overflow: hidden; position: relative; outline: none; cursor: grab;">
+                            <div class="wrap"
+                                style="transition: transform ease-out; transform: translate3d(0px, 0px, 0px);">
+                                <div class="header-menu">
+                                    <a class="active" href="/"><span>Main</span>Home</a>
+                                    <!-- <a href="/web/20210127102208/https://robotop.io/?a=about"><span>company</span>About
+                                        us</a>
+                                    <a
+                                        href="/web/20210127102208/https://robotop.io/?a=plans"><span>plans</span>Investment</a>
+                                    <a href="/web/20210127102208/https://robotop.io/?a=news"><span>info</span>News</a>
+                                    <a
+                                        href="/web/20210127102208/https://robotop.io/?a=faq"><span>questions</span>FAQ</a> -->
+                                    <a href="mailto:support@example.com"><span>support</span>Contacts</a>
+                                </div>
+                            </div>
+                            <div id="ascrail2000" class="nicescroll-rails nicescroll-rails-vr"
+                                style="width: 0px; z-index: 20; cursor: grab; position: absolute; top: 0px; right: 0px; opacity: 1; display: block; height: 357px;">
+                                <div class="nicescroll-cursors"
+                                    style="position: relative; top: 0px; float: right; width: 0px; height: 258px; background-color: rgb(9, 42, 187); border: 0px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 0px;">
+                                </div>
+                            </div>
+                            <div id="ascrail2000-hr" class="nicescroll-rails nicescroll-rails-hr"
+                                style="height: 0px; z-index: 20; position: absolute; left: 0px; bottom: 0px; opacity: 1; display: none; width: 1312px;">
+                                <div class="nicescroll-cursors"
+                                    style="position: absolute; top: 0px; height: 0px; width: 1312px; background-color: rgb(9, 42, 187); border: 0px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 0px; left: 0px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-lg-5">
+                                <div class="header-menu">
+                                    <a class="active" href="/"><span>Main</span>Home</a>
+                                 
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-8"><a class="header-logo"
+                                    href="/web/20210127102208/https://robotop.io/">
+                                    <div class="header-logo__icon"><img src="./assets/img/logo-icon.png"
+                                            alt="logo-icon">
+                                    </div><img src="./assets/img/logo-text.png" alt="logo-text">
+                                </a></div>
+                            <div class="col-lg-5 col-4">
+                                <div class="header-menu">
+                                    <a href="mailto:support@example.com"><span>support</span>Contacts</a>
+
+                                </div>
+                                <div class="header-burger"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="header-content">
+                    <div class="container">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-md-6 col-lg-5 offset-lg-1 aos-init aos-animate" data-aos="fade-right"
+                                data-aos-delay="0">
+
+                                <!-- Subtitle from i18n -->
+                                <div class="header-subtitle" data-i18n="header_content.subtitle"></div>
+
+                                <!-- Title -->
+                                <div class="header-title">
+                                    <span data-i18n="header_content.title_prefix">Your</span>
+                                    <span class="blue" data-i18n="header_content.title_middle">trading</span><br>
+                                    <sup data-i18n="header_content.title_suffix">bot</sup>
+                                    Roboto<span class="pp">p</span>
+                                </div>
+
+                                <!-- Description -->
+                                <div class="header-text" data-i18n="header_content.description">
+                                    Your reliable assistant for successful performance in the cryptocurrency market
+                                </div>
+
+                                <!-- Navigation Buttons -->
+                                <div class="header-nav">
+                                    <a class="main-btn" href="/web/20210127102208/https://robotop.io/?a=signup">
+                                        <p data-i18n="header_content.signup_button">Signup <span>ROBOTOP</span></p>
+                                        <div class="main-btn__icon">
+                                            <img src="./assets/img/btn-arrow.png" alt="btn-arrow">
+                                        </div>
+                                    </a>
+                                    <a class="header-btn" href="https://telegram.org/" target="_blank">
+                                        <img src="./assets/img/btn-arrow.png" alt="btn-arrow">
+                                        <span data-i18n="header_content.access_button">Get access</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Right Column with Parallax Scene -->
+                            <div class="col-md-6 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="0">
+                                <div class="header-scene" id="header-scene" style="pointer-events: none;">
+                                    <div class="header-scene__item" data-depth="0.1">
+                                        <img src="./assets/img/header-scene-1.png" alt="header-scene-1">
+                                    </div>
+                                    <div class="header-scene__item">
+                                        <img src="./assets/img/header-scene-2.png" alt="header-scene-2">
+                                    </div>
+                                    <div class="header-scene__item">
+                                        <img src="./assets/img/header-scene-3.png" alt="header-scene-3">
+                                    </div>
+                                    <div class="header-scene__item">
+                                        <canvas id="smoke" width="1312" height="420"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="header-bot">
+                    <div class="container">
+                        <div class="header-bot__wrap">
+
+                            <!-- Server Time Column -->
+                            <div class="header-bot__col aos-init" data-aos="fade-right" data-aos-delay="300"
+                                style="display: flex; justify-content: flex-start;">
+                                <div class="header-bot__title">
+                                    <span data-i18n="header_bot.time">time</span>
+                                    <p data-i18n="header_bot.server">Server</p>
+                                    <img src="./assets/img/header-icon-2.png" alt="header-icon-2">
+                                </div>
+                                <div class="header-time">
+                                    <p id="server-time">10:23:55</p>
+                                    <span id="server-date">27 Jan 2021</span>
+                                </div>
+                            </div>
+
+                            <!-- Language Switch Column -->
+                            <div class="header-bot__col aos-init" data-aos="fade-right" data-aos-delay="600"
+                                style="display: flex; justify-content: flex-end;">
+                                <div class="header-bot__title">
+                                    <span data-i18n="header_bot.countries">countries</span>
+                                    <p data-i18n="header_bot.languages">Languages</p>
+                                    <img src="./assets/img/header-icon-3.png" alt="header-icon-3">
+                                </div>
+
+                                <div class="header-lang">
+                                    <div class="header-lang__item" id="selected-lang">
+                                        <span class="flag-icon flag-icon-us"></span> English
+                                        <img src="./assets/img/btn-arrow.png" alt="btn-arrow">
+                                    </div>
+
+                                    <div class="header-lang__hide">
+                                        <a class="header-lang__item" href="javascript:void(0);"
+                                            onclick="switchLanguage('en')">
+                                            <span class="flag-icon flag-icon-us"></span> English
+                                        </a>
+                                        <a class="header-lang__item" href="javascript:void(0);"
+                                            onclick="switchLanguage('zh')">
+                                            <span class="flag-icon flag-icon-cn"></span> 中文
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </header>
+
+            <section class="invest">
+                <div class="container">
+                    <div class="invest-wrap">
+                        <div class="sect-title" data-i18n="invest.why">Why choose us</div>
+
+                        <div class="row invest-top aos-init" data-aos="fade-down" data-aos-delay="0">
+                            <div class="col-xl-4">
+                                <div class="main-title" data-i18n="invest.title">Investment <span>plans </span></div>
+                            </div>
+                            <div class="col-xl-8">
+                                <div class="invest-calc">
+                                    <div class="invest-calc__title" data-i18n="invest.calculate">calculate:</div>
+
+                                    <div class="invest-calc__nav">
+                                        <div class="invest-calc__select">
+                                            <select id="calc-plan">
+                                                <option data-period="30" data-return="1" data-min="25" data-max="499"
+                                                    data-percent="2.50" data-i18n="invest.plans.azerty.name">Azerty
+                                                </option>
+                                                <option data-period="35" data-return="1" data-min="500" data-max="5000"
+                                                    data-percent="3.00" data-i18n="invest.plans.proto.name">Proto
+                                                </option>
+                                                <option data-period="45" data-return="0" data-min="1500"
+                                                    data-max="100000" data-percent="5.00"
+                                                    data-i18n="invest.plans.boomer.name">Boomer</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="invest-calc__input">
+                                            <input type="text" id="calc-amount" value="25"><span>$</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="invest-calc__info">
+                                        <div class="invest-calc__info-item">
+                                            <p data-i18n="invest.daily">Daily</p><span>$ <span
+                                                    id="calc-daily">0.63</span></span>
+                                        </div>
+                                        <div class="invest-calc__info-item">
+                                            <p data-i18n="invest.total">Total</p><span>$ <span
+                                                    id="calc-total">43.75</span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="invest-plans aos-init" data-aos="zoom-in" data-aos-delay="0">
+                            <!-- Azerty Plan -->
+                            <div class="invest-plan">
+                                <div class="invest-plan__head"><img src="./assets/img/plan-1.png"
+                                        alt="plan-1"><span>01</span></div>
+                                <div class="invest-plan__title" data-i18n="invest.plans.azerty.name">Azerty</div>
+                                <div class="invest-plan__day">
+                                    <span>2.5<sub>%</sub></span>
+                                    <span data-i18n="invest.per_day">daily for</span>
+                                    <span>30</span> <span data-i18n="invest.days">days</span>
+                                </div>
+                                <div class="invest-plan__info">
+                                    <p data-i18n="invest.min_deposit">Minimum deposit:</p><span>$ 25</span>
+                                </div>
+                                <div class="invest-plan__info">
+                                    <p data-i18n="invest.max_deposit">Maximum deposit:</p><span>$ 499</span>
+                                </div>
+                                <div class="invest-plan__info">
+                                    <p data-i18n="invest.total_profit">Total profit:</p><span>175 %</span>
+                                </div>
+                                <div class="invest-plan__info">
+                                    <p data-i18n="invest.deposit_return">Deposit return:</p><span
+                                        data-i18n="invest.yes">Yes</span>
+                                </div>
+                                <a class="main-btn main-btn_tr" href="/web/20210127102208/https://robotop.io/?a=signup">
+                                    <p data-i18n="invest.btn">Invest deposit</p>
+                                    <div class="main-btn__icon"><img src="./assets/img/btn-arrow.png" alt="btn-arrow">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Proto Plan -->
+                            <div class="invest-plan">
+                                <div class="invest-plan__head"><img src="./assets/img/plan-2.png"
+                                        alt="plan-2"><span>02</span></div>
+                                <div class="invest-plan__title" data-i18n="invest.plans.proto.name">Proto</div>
+                                <div class="invest-plan__day">
+                                    <span>3<sub>%</sub></span>
+                                    <span data-i18n="invest.per_day">daily for</span>
+                                    <span>35</span> <span data-i18n="invest.days">days</span>
+                                </div>
+                                <div class="invest-plan__info">
+                                    <p data-i18n="invest.min_deposit">Minimum deposit:</p><span>$ 500</span>
+                                </div>
+                                <div class="invest-plan__info">
+                                    <p data-i18n="invest.max_deposit">Maximum deposit:</p><span>$ 5000</span>
+                                </div>
+                                <div class="invest-plan__info">
+                                    <p data-i18n="invest.total_profit">Total profit:</p><span>205 %</span>
+                                </div>
+                                <div class="invest-plan__info">
+                                    <p data-i18n="invest.deposit_return">Deposit return:</p><span
+                                        data-i18n="invest.yes">Yes</span>
+                                </div>
+                                <a class="main-btn main-btn_tr" href="/web/20210127102208/https://robotop.io/?a=signup">
+                                    <p data-i18n="invest.btn">Invest deposit</p>
+                                    <div class="main-btn__icon"><img src="./assets/img/btn-arrow.png" alt="btn-arrow">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Boomer Plan -->
+                            <div class="invest-plan">
+                                <div class="invest-plan__head"><img src="./assets/img/plan-3.png"
+                                        alt="plan-3"><span>03</span></div>
+                                <div class="invest-plan__title" data-i18n="invest.plans.boomer.name">Boomer</div>
+                                <div class="invest-plan__day">
+                                    <span>5<sub>%</sub></span>
+                                    <span data-i18n="invest.per_day">daily for</span>
+                                    <span>45</span> <span data-i18n="invest.days">days</span>
+                                </div>
+                                <div class="invest-plan__info">
+                                    <p data-i18n="invest.min_deposit">Minimum deposit:</p><span>$ 1500</span>
+                                </div>
+                                <div class="invest-plan__info">
+                                    <p data-i18n="invest.max_deposit">Maximum deposit:</p><span>$ 100000</span>
+                                </div>
+                                <div class="invest-plan__info">
+                                    <p data-i18n="invest.total_profit">Total profit:</p><span>225 %</span>
+                                </div>
+                                <div class="invest-plan__info">
+                                    <p data-i18n="invest.deposit_return">Deposit return:</p><span
+                                        data-i18n="invest.no">No</span>
+                                </div>
+                                <a class="main-btn main-btn_tr" href="/signup">
+                                    <p data-i18n="invest.btn">Invest deposit</p>
+                                    <div class="main-btn__icon"><img src="./assets/img/btn-arrow.png" alt="btn-arrow">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about">
+                <div class="about-bg"><img src="./assets/img/about-img-1.png" alt="about-img-1"></div>
+                <div class="container">
+                    <div class="about-wrap">
+                        <div class="sect-title" data-i18n="about.company">Company</div>
+
+                        <div class="about-top">
+                            <div class="about-left aos-init" data-aos="fade-right" data-aos-delay="0">
+                                <a class="about-promo popup-frame"
+                                    href="https://web.archive.org/web/20210127102208/http://www.youtube.com/watch?v=V_jBiwTAjFM"
+                                    data-i18n="about.promo_video">
+                                    promo video <span>Play</span>
+                                </a>
+
+                                <div class="about-tabs" data-tabs-btns="about-info">
+                                    <div class="about-tabs__item active" data-tabs-btn="1">
+                                        <p data-i18n="about.tabs.innovative.title">Innovative solution</p>
+                                        <span data-i18n="about.tabs.innovative.subtitle">New Operating Technology</span>
+                                        <img src="./assets/img/btn-arrow.png" alt="btn-arrow">
+                                    </div>
+                                    <div class="about-tabs__item" data-tabs-btn="2">
+                                        <p data-i18n="about.tabs.security.title">Guaranteed security</p>
+                                        <span data-i18n="about.tabs.security.subtitle">Reliable online service</span>
+                                        <img src="./assets/img/btn-arrow.png" alt="btn-arrow">
+                                    </div>
+                                    <div class="about-tabs__item" data-tabs-btn="3">
+                                        <p data-i18n="about.tabs.improvement.title">Constant improvement</p>
+                                        <span data-i18n="about.tabs.improvement.subtitle">Regular functionality
+                                            updates</span>
+                                        <img src="./assets/img/btn-arrow.png" alt="btn-arrow">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="about-right aos-init" data-aos="fade-left" data-aos-delay="0">
+                                <div class="main-title" data-i18n="about.title">About <span>Us</span></div>
+
+                                <div data-tabs-wrapper="about-info">
+                                    <div data-tabs-item="1">
+                                        <div class="main-text">
+                                            <p data-i18n="about.content.0">The Robotop trading bot is designed to work
+                                                comfortably with an instant response to any market swings...</p>
+                                            <p data-i18n="about.content.1">The service is automatically set to active
+                                                currency sell and buy with significant profit for the buyer.</p>
+                                            <p data-i18n="about.content.2">The bot is fully automated. To work, it is
+                                                enough to visit the website using any device, make a deposit, and stay
+                                                pleased with the increasing balance thanks to your perfect risk-free
+                                                investments.</p>
+                                        </div>
+                                    </div>
+
+                                    <div data-tabs-item="2" style="display: none;">
+                                        <div class="main-text">
+                                            <p data-i18n="about.content.3">The implementation of special encryption
+                                                protocols allowed us to create a unique and secure digital product...
+                                            </p>
+                                            <p data-i18n="about.content.4">We cooperate only with leading cryptocurrency
+                                                market exchanges.</p>
+                                        </div>
+                                    </div>
+
+                                    <div data-tabs-item="3" style="display: none;">
+                                        <div class="main-text">
+                                            <p data-i18n="about.content.5">Your digital assistant Robotop is created for
+                                                the volatile cryptocurrency market...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row aos-init" data-aos="fade-right" data-aos-delay="0">
+                            <div class="col-xl-10">
+                                <div class="about-stat">
+                                    <a class="main-btn" href="/web/20210127102208/https://robotop.io/?a=signup">
+                                        <p data-i18n="about.access">Access</p>
+                                        <span data-i18n="about.robotop">ROBOTOP</span>
+                                        <div class="main-btn__icon"><img src="./assets/img/btn-arrow.png"
+                                                alt="btn-arrow"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="stat">
+                <div class="container">
+                    <div class="stat-wrap">
+
+                        <div class="invest-scene">
+                            <div id="invest-scene"
+                                style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; position: relative; pointer-events: none;">
+                                <div data-depth="0.5"
+                                    style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
+                                    <img src="./assets/img/invest-scene.png" alt="invest-scene">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="sect-title">Why choose us</div>
+                        <div class="stat-col aos-init" data-aos="fade-right" data-aos-delay="0">
+                            <div class="main-title">Our <span>statistics</span></div>
+
+                            <div class="stat-info"><span><span id="days-online">25</span><img
+                                        src="./assets/img/stat-icon-1.png" alt="stat-icon-1"></span>
+                                <p>days working</p>
+                            </div>
+
+
+                            <div class="stat-info"><span>$ 436119.66<img src="./assets/img/stat-icon-3.png"
+                                        alt="stat-icon-3"></span>
+                                <p>Total deposits</p>
+                            </div>
+
+                            <div class="stat-info"><span>$ 257687.56<img src="./assets/img/stat-icon-2.png"
+                                        alt="stat-icon-2"></span>
+                                <p>Total withdrawals</p>
+                            </div>
+                        </div>
+
+                        <div class="stat-col aos-init" data-aos="zoom-in" data-aos-delay="0">
+                            <div class="stat-title">Last deposits</div>
+                            <div class="stat-table">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>Pu** </p><span>Jan-27-2021 12:45:11 PM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>25.00</p>
+                                                    <img src="./assets/img/pm.svg" alt="pm">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>khing25** </p><span>Jan-27-2021 07:45:24 AM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>36.96</p>
+                                                    <img src="./assets/img/btc.svg" alt="btc">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>hyipco** </p><span>Jan-27-2021 02:18:37 AM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>98.89</p>
+                                                    <img src="./assets/img/eth.svg" alt="eth">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>Viktor** </p><span>Jan-27-2021 12:43:00 AM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>25.00</p>
+                                                    <img src="./assets/img/pm.svg" alt="pm">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>kapitosh** </p><span>Jan-26-2021 11:51:41 PM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>1500.00</p>
+                                                    <img src="./assets/img/pm.svg" alt="pm">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>Ra** </p><span>Jan-26-2021 11:00:10 PM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>80.00</p>
+                                                    <img src="./assets/img/pm.svg" alt="pm">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="stat-col aos-init" data-aos="fade-left" data-aos-delay="0">
+                            <div class="stat-title stat-title_blue">Last withdrawals</div>
+                            <div class="stat-table">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>JOE12** </p><span>Jan-27-2021 01:17:02 PM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>1.25</p>
+                                                    <img src="./assets/img/pm.svg" alt="pm">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>Zulfiqar66** </p><span>Jan-27-2021 01:09:54 PM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>1.20</p>
+                                                    <img src="./assets/img/pm.svg" alt="pm">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>Apxitekt** </p><span>Jan-27-2021 01:09:41 PM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>1.00</p>
+                                                    <img src="./assets/img/pm.svg" alt="pm">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>anata** </p><span>Jan-27-2021 01:08:28 PM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>2.50</p>
+                                                    <img src="./assets/img/pm.svg" alt="pm">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>LEXU** </p><span>Jan-27-2021 01:06:05 PM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>1.25</p>
+                                                    <img src="./assets/img/pm.svg" alt="pm">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>flamingo** </p><span>Jan-27-2021 01:05:30 PM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>4.00</p>
+                                                    <img src="./assets/img/pm.svg" alt="pm">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div> -->
+
+                        <div class="sect-title" data-i18n="stat.why_choose_us">Why choose us</div>
+
+                        <div class="stat-col aos-init" data-aos="fade-right" data-aos-delay="0">
+                            <div class="main-title" data-i18n="stat.main_title">Our <span>statistics</span></div>
+
+                            <div class="stat-info">
+                                <span>
+                                    <span id="days-online">25</span>
+                                    <img src="./assets/img/stat-icon-1.png" alt="stat-icon-1">
+                                </span>
+                                <p data-i18n="stat.days_working">days working</p>
+                            </div>
+
+                            <div class="stat-info">
+                                <span>$ 436119.66<img src="./assets/img/stat-icon-3.png" alt="stat-icon-3"></span>
+                                <p data-i18n="stat.total_deposits">Total deposits</p>
+                            </div>
+
+                            <div class="stat-info">
+                                <span>$ 257687.56<img src="./assets/img/stat-icon-2.png" alt="stat-icon-2"></span>
+                                <p data-i18n="stat.total_withdrawals">Total withdrawals</p>
+                            </div>
+                        </div>
+
+                        <div class="stat-col aos-init" data-aos="zoom-in" data-aos-delay="0">
+                            <div class="stat-title" data-i18n="stat.last_deposits">Last deposits</div>
+                            <div class="stat-table">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>Pu**</p><span>Jan-27-2021 12:45:11 PM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>25.00</p>
+                                                    <img src="./assets/img/pm.svg" alt="pm">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>khing25**</p><span>Jan-27-2021 07:45:24 AM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>36.96</p>
+                                                    <img src="./assets/img/btc.svg" alt="btc">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>hyipco**</p><span>Jan-27-2021 02:18:37 AM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>98.89</p>
+                                                    <img src="./assets/img/eth.svg" alt="eth">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>Viktor**</p><span>Jan-27-2021 12:43:00 AM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>25.00</p>
+                                                    <img src="./assets/img/pm.svg" alt="pm">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>kapitosh**</p><span>Jan-26-2021 11:51:41 PM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>1500.00</p>
+                                                    <img src="./assets/img/pm.svg" alt="pm">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>Ra**</p><span>Jan-26-2021 11:00:10 PM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>80.00</p>
+                                                    <img src="./assets/img/pm.svg" alt="pm">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="stat-col aos-init" data-aos="fade-left" data-aos-delay="0">
+                            <div class="stat-title stat-title_blue" data-i18n="stat.last_withdrawals">Last withdrawals
+                            </div>
+                            <div class="stat-table">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>JOE12**</p><span>Jan-27-2021 01:17:02 PM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>1.25</p>
+                                                    <img src="./assets/img/pm.svg" alt="pm">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>Zulfiqar66**</p><span>Jan-27-2021 01:09:54 PM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>1.20</p>
+                                                    <img src="./assets/img/pm.svg" alt="pm">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>Apxitekt**</p><span>Jan-27-2021 01:09:41 PM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>1.00</p>
+                                                    <img src="./assets/img/pm.svg" alt="pm">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>anata**</p><span>Jan-27-2021 01:08:28 PM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>2.50</p>
+                                                    <img src="./assets/img/pm.svg" alt="pm">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>LEXU**</p><span>Jan-27-2021 01:06:05 PM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>1.25</p>
+                                                    <img src="./assets/img/pm.svg" alt="pm">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="stat-table__title">
+                                                    <p>flamingo**</p><span>Jan-27-2021 01:05:30 PM</span>
+                                                </div>
+                                            </td>
+                                            <td align="right">
+                                                <div class="stat-table__val">
+                                                    <p><span>$ </span>4.00</p>
+                                                    <img src="./assets/img/pm.svg" alt="pm">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-top aos-init" data-aos="fade-down" data-aos-delay="0">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-lg-5">
+                                <div class="footer-menu">
+                                    <a class="active" href="/">
+                                        <span>Main</span>
+                                        Home
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <a class="footer-logo" href="/">
+                                    <div class="footer-logo__icon">
+                                        <img src="./assets/img/logo-icon.png" alt="logo-icon">
+                                    </div>
+                                    <img src="./assets/img/logo-text.png" alt="logo-text">
+                                </a>
+                            </div>
+                            <div class="col-lg-5">
+
+                                <div class="footer-menu">
+                                    <a href="/mailto:support@example.com"><span>support</span>Contacts</a>
+                                </div>
+
+                                <!-- <div class="footer-menu">
+                                    <a href="/contact" data-i18n="footer.menu.contacts"><span
+                                            data-i18n="footer.menu.contacts_sub"></span></a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-center aos-init" data-aos="zoom-in" data-aos-delay="0">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-lg-5">
+                                <div class="footer-text" data-i18n="footer.text">
+                                    Robotop developers are constantly improving the efficiency of the system, as well as
+                                    the security and safety of user data.
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="footer-nav">
+                                    <div class="footer-nav__item">
+                                        <div class="header-bot__title">
+                                            <span data-i18n="footer.address_label">Address</span>
+                                            <a href="https://web.archive.org/web/20210127102208/https://goo.gl/maps/7YaDA9SCCVCnvxbf9"
+                                                target="_blank" data-i18n="footer.address_value">
+                                                118 Merrow Street, London, United Kingdom, SE17 2NP
+                                            </a>
+                                            <img src="./assets/img/header-icon-3.png" alt="header-icon-3">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-bot aos-init" data-aos="fade-up" data-aos-delay="0">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-lg-9">
+                                <div class="footer-wallets">
+                                    <div class="footer-wallets__item"><img src="./assets/img/pm.svg" alt="pm"></div>
+                                    <div class="footer-wallets__item"><img src="./assets/img/btc.svg" alt="btc"></div>
+                                    <div class="footer-wallets__item"><img src="./assets/img/eth.svg" alt="eth"></div>
+                                    <div class="footer-wallets__item"><img src="./assets/img/ltc.svg" alt="ltc"></div>
+                                    <span data-i18n="footer.we_accept">we accept</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="footer-links">
+                                    <a href="/web/20210127102208/https://robotop.io/?a=rules"
+                                        data-i18n="footer.terms">Terms of Use</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+
+
+    <!-- <script src="./assets/libs/jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <!-- NiceScroll -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+
+    <!-- Required CSS for Magnific Popup -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <!-- svg4everybody -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/svg4everybody/2.1.9/svg4everybody.min.js"></script>
+
+    <!-- formstyler -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.formstyler/2.0.2/jquery.formstyler.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.min.js"></script>
+
+    <!-- aos -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- clipboard -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
+
+    <!-- moment  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data.min.js"></script>
+
+    <!-- smokemachine -->
+    <script src="./assets/libs/smoke/smoke.js"></script>
+
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- parallax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+    <!-- i18next + backend plugin -->
+    <script src="https://unpkg.com/i18next@22.4.9/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend@2.3.1/i18nextHttpBackend.min.js"></script>
+
+    <script>
+        i18next
+            .use(i18nextHttpBackend) // Use backend loader
+            .init({
+                lng: 'en',
+                fallbackLng: 'en',
+                debug: true,
+                backend: {
+                    loadPath: './assets/libs/locales/{{lng}}/translation.json'
+                }
+            }, function (err, t) {
+                updateContent();
+                updateSelectedLang(i18next.language); // 👈 initialize selected language
+            });
+
+        function updateContent() {
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                el.innerHTML = i18next.t(key, { interpolation: { escapeValue: false } });
+            });
+        }
+
+        function switchLanguage(lang) {
+            console.log('Switching to:', lang);
+            i18next.changeLanguage(lang, () => {
+                updateContent();
+                updateSelectedLang(lang);
+            });
+        }
+
+        function updateSelectedLang(lang) {
+            const langMap = {
+                en: {
+                    name: 'English',
+                    flagClass: 'flag-icon-us'
+                },
+                zh: {
+                    name: '中文',
+                    flagClass: 'flag-icon-cn'
+                }
+                // Add more languages here if needed
+            };
+
+            const langData = langMap[lang];
+            if (langData) {
+                document.getElementById('selected-lang').innerHTML = `
+            <span class="flag-icon ${langData.flagClass}"></span> ${langData.name}
+            <img src="./assets/img/btn-arrow.png" alt="btn-arrow">
+        `;
+            }
+        }
+
+
+    </script>
+
+
+
+
+
+
+    <script src="./js/app.js"></script>
+
+    <!-- <script src="./assets/libs/svg4everybody.js"></script>
+    <script src="./assets/libs/smoke/smoke.js"></script>
+    <script src="./assets/libs/momentjs/moment.min.js"></script>
+    <script src="./assets/libs/momentjs/moment-time-zone.js"></script>
+    <script src="./assets/libs/swiper/swiper.min.js"></script>
+    <script src="./assets/libs/formstyler/jquery.formstyler.min.js"></script>
+    <script src="./assets/libs/clipboard.js/clipboard.min.js"></script>
+    <script src="./assets/libs/lobibox/js/lobibox.min.js"></script>
+    <script src="./assets/libs/ResponsiveTables/ng_responsive_tables.js"></script>
+    <script src="./assets/libs/magnific-popup/magnific-popup.min.js"></script>
+    <script src="./assets/libs/parallax/parallax.min.js"></script>
+    <script src="./assets/libs/jquery.nicescroll/jquery.nicescroll.min.js"></script>
+    <script src="./assets/libs/aos/aos.js"></script> -->
+    <!-- <script src="./js/app.js"></script> -->
+
+
+</body>
+
+</html>

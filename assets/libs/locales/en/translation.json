@@ -1,0 +1,101 @@
+{
+    "header_top": {
+        "main": "Main",
+        "home": "Home",
+        "support": "Support",
+        "contacts": "Contacts"
+    },
+    "header_content": {
+        "subtitle": "Welcome",
+        "title_prefix": "Your",
+        "title_middle": "trading",
+        "title_suffix": "bot",
+        "description": "Your reliable assistant for successful performance in the cryptocurrency market",
+        "signup_button": "Signup <span>ROBOTOP</span>",
+        "access_button": "Get access"
+    },
+    "header_bot": {
+        "time": "time",
+        "server": "Server",
+        "countries": "countries",
+        "languages": "Languages"
+    },
+    "invest": {
+        "why": "Why choose us",
+        "title": "Investment <span>plans</span>",
+        "calculate": "calculate:",
+        "daily": "Daily",
+        "total": "Total",
+        "per_day": "daily for",
+        "days": "days",
+        "min_deposit": "Minimum deposit:",
+        "max_deposit": "Maximum deposit:",
+        "total_profit": "Total profit:",
+        "deposit_return": "Deposit return:",
+        "yes": "Yes",
+        "no": "No",
+        "btn": "Invest deposit",
+        "plans": {
+            "azerty": {
+                "name": "Azerty"
+            },
+            "proto": {
+                "name": "Proto"
+            },
+            "boomer": {
+                "name": "Boomer"
+            }
+        }
+    },
+    "about": {
+        "company": "Company",
+        "promo_video": "promo video <span>Play</span>",
+        "title": "About <span>Us</span>",
+        "tabs": {
+            "innovative": {
+                "title": "Innovative solution",
+                "subtitle": "New Operating Technology"
+            },
+            "security": {
+                "title": "Guaranteed security",
+                "subtitle": "Reliable online service"
+            },
+            "improvement": {
+                "title": "Constant improvement",
+                "subtitle": "Regular functionality updates"
+            }
+        },
+        "content": {
+            "0": "The Robotop trading bot is designed to work comfortably with an instant response to any market swings...",
+            "1": "The service is automatically set to active currency sell and buy with significant profit for the buyer.",
+            "2": "The bot is fully automated. To work, it is enough to visit the website using any device, make a deposit, and stay pleased with the increasing balance thanks to your perfect risk-free investments.",
+            "3": "The implementation of special encryption protocols allowed us to create a unique and secure digital product...",
+            "4": "We cooperate only with leading cryptocurrency market exchanges.",
+            "5": "Your digital assistant Robotop is created for the volatile cryptocurrency market..."
+        },
+        "access": "Access",
+        "robotop": "ROBOTOP"
+    },
+    "stat": {
+        "why_choose_us": "Why choose us",
+        "main_title": "Our <span>statistics</span>",
+        "days_working": "days working",
+        "total_deposits": "Total deposits",
+        "total_withdrawals": "Total withdrawals",
+        "last_deposits": "Last deposits",
+        "last_withdrawals": "Last withdrawals"
+    },
+    "footer": {
+        "menu": {
+            "main_prefix": "Main",
+            "main": "Home",
+            "support": "support",
+            "contacts": "Contacts"
+        },
+        "text": "Robotop developers are constantly improving the efficiency of the system, as well as the security and safety of user data.",
+        "address_label": "Address",
+        "address_value": "118 Merrow Street, London, United Kingdom, SE17 2NP",
+        "we_accept": "we accept",
+        "terms": "Terms of Use"
+    }
+}

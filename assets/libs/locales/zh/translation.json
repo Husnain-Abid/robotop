@@ -1,0 +1,101 @@
+{
+    "header_top": {
+        "main": "主页",
+        "home": "首页",
+        "support": "支持",
+        "contacts": "联系方式"
+    },
+    "header_content": {
+        "subtitle": "欢迎来",
+        "title_prefix": "您的",
+        "title_middle": "交易",
+        "title_suffix": "机器人",
+        "description": "您在加密货币市场中成功表现的可靠助手",
+        "signup_button": "注册 <span>ROBOTOP</span>",
+        "access_button": "获取访问权限"
+    },
+    "header_bot": {
+        "time": "时间",
+        "server": "服务器",
+        "countries": "国家",
+        "languages": "语言"
+    },
+    "invest": {
+        "why": "为什么选择我们",
+        "title": "投资 <span>计划</span>",
+        "calculate": "计算：",
+        "daily": "每日收益",
+        "total": "总收益",
+        "per_day": "每日持续",
+        "days": "天",
+        "min_deposit": "最低存款：",
+        "max_deposit": "最高存款：",
+        "total_profit": "总利润：",
+        "deposit_return": "返还本金：",
+        "yes": "是",
+        "no": "否",
+        "btn": "立即投资",
+        "plans": {
+            "azerty": {
+                "name": "阿泽提"
+            },
+            "proto": {
+                "name": "原型"
+            },
+            "boomer": {
+                "name": "繁荣者"
+            }
+        }
+    },
+    "about": {
+        "company": "公司",
+        "promo_video": "宣传视频 <span>播放</span>",
+        "title": "关于 <span>我们</span>",
+        "tabs": {
+            "innovative": {
+                "title": "创新解决方案",
+                "subtitle": "新的运营技术"
+            },
+            "security": {
+                "title": "保障安全",
+                "subtitle": "可靠的在线服务"
+            },
+            "improvement": {
+                "title": "持续改进",
+                "subtitle": "功能定期更新"
+            }
+        },
+        "content": {
+            "0": "Robotop 交易机器人旨在快速响应市场波动，让您轻松交易。",
+            "1": "该服务会自动执行买卖操作，为投资者带来丰厚利润。",
+            "2": "机器人全自动运行，您只需登录网站、充值，即可享受稳定收益。",
+            "3": "通过采用加密协议，我们构建了安全的数字产品。",
+            "4": "我们只与顶级加密货币交易所合作。",
+            "5": "Robotop 会不断优化算法，适应波动的市场并提供更准确的分析。"
+        },
+        "access": "进入",
+        "robotop": "ROBOTOP"
+    },
+    "stat": {
+        "why_choose_us": "为什么选择我们",
+        "main_title": "我们的<span>数据</span>",
+        "days_working": "运营天数",
+        "total_deposits": "总存款",
+        "total_withdrawals": "总取款",
+        "last_deposits": "最新存款",
+        "last_withdrawals": "最新取款"
+    },
+    "footer": {
+        "menu": {
+            "main_prefix": "主页",
+            "main": "首页",
+            "support": "支持",
+            "contacts": "联系方式"
+        },
+        "text": "Robotop 开发团队不断提升系统效率，同时确保用户数据的安全与隐私。",
+        "address_label": "地址",
+        "address_value": "英国伦敦梅罗街118号，SE17 2NP",
+        "we_accept": "我们支持",
+        "terms": "使用条款"
+    }
+}
